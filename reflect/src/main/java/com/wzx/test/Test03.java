@@ -32,6 +32,7 @@ public class Test03 {
         }
         //根据相应字段的注解获取注解中的值
         FieldWzx annotation1 = id.getAnnotation(FieldWzx.class);
+
         System.out.println("annotation1.columnName() = " + annotation1.columnName());
         System.out.println("annotation1.type() = " + annotation1.type());
         System.out.println("annotation1.length() = " + annotation1.length());
