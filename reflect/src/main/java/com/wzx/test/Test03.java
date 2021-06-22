@@ -24,7 +24,7 @@ public class Test03 {
         String value = annotation.value();
         System.out.println("value = " + value);
 
-        //获取属性字段中的注解值
+        //获取字段属性中的注解值
         Field id = aClass.getDeclaredField("id");
         Annotation[] annotations1 = id.getAnnotations();
         for (Annotation annotation1 : annotations1) {
